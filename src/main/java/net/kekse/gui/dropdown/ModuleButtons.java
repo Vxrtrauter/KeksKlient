@@ -1,0 +1,46 @@
+package net.kekse.gui.dropdown;
+
+import net.kekse.KeksKlient;
+import net.kekse.module.Module;
+import net.kekse.util.render.RenderUtil;
+import net.kekse.util.render.hover.HoverUtil;
+import net.minecraft.client.gui.FontRenderer;
+
+import java.awt.*;
+import java.io.IOException;
+
+public class ModuleButtons {
+    public Module mod;
+    public Frame parent;
+    public int offset;
+
+
+    public ModuleButtons(Module mod, Frame parent, int offset) {
+        this.mod = mod;
+        this.parent = parent;
+        this.offset = offset;
+    }
+
+    public void drawScreen(int mouseX, int mouseY, float partialTicks) {
+        FontRenderer fr = KeksKlient.INSTANCE.getMc().fontRendererObj;
+
+
+        RenderUtil.rect(parent.x, offset + 30, parent.width, offset + 5, new Color(28, 28, 28, 255));
+        RenderUtil.rect(parent.x, offset + 30, parent.width, 1, new Color(60, 60, 60, 255));
+
+        if(mod.isToggled()) {
+            RenderUtil.rect(parent.x + 94, offset + 39, parent.width - 12, 6, Color.GREEN);
+        } else {
+            RenderUtil.rect(parent.x + 94, offset + 39, parent.width - 12, 6, new Color(0, 0, 0, 0));
+        }
+        fr.drawString(mod.getName(), parent.x + 6, offset + 38, -1);
+    }
+
+    public void mouseClicked(int mouseX, int mouseY, int mouseButton) throws IOException {
+        if(HoverUtil.rectHovered(parent.x, offset + 30, parent.width, offset + 5, mouseX, mouseY) && mouseButton == 0) {
+            mod.toggle();
+
+        }
+    }
+
+}
