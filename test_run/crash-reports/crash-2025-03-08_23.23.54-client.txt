@@ -10,8 +10,8 @@ java.lang.ExceptionInInitializerError
 	at net.minecraft.client.main.Main.main(Main.java:113)
 	at Start.main(Start.java:22)
 Caused by: java.lang.NullPointerException
-	at net.kekse.gui.dropdown.Frame.<init>(Frame.java:26)
-	at net.kekse.gui.dropdown.DropdownGUI.<init>(DropdownGUI.java:20)
+	at net.kekse.ui.dropdown.Frame.<init>(Frame.java:26)
+	at net.kekse.ui.dropdown.DropdownGUI.<init>(DropdownGUI.java:20)
 	at net.kekse.KeksKlient.<init>(Timeless.java:37)
 	at net.kekse.KeksKlient.<clinit>(Timeless.java:20)
 	... 4 more

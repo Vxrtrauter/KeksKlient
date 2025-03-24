@@ -1,4 +1,4 @@
-package net.kekse.gui.dropdown;
+package net.kekse.ui.dropdown;
 
 import net.kekse.KeksKlient;
 import net.kekse.module.Module;

@@ -60,7 +60,7 @@ public abstract class Module implements Subscriber {
     }
 
 
-    public void onToggle() {}
+    public void onToggle() { KeksKlient.BUS.subscribe(this); }
 
     public void toggle() {
         onToggle();

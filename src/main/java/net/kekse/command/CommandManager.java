@@ -51,7 +51,7 @@ public final class CommandManager {
     }
 
     private void register() throws CommandException {
-        final Reflections reflections = new Reflections("net.Vxrtrauter.command.impl");
+        final Reflections reflections = new Reflections("net.kekse.command.impl");
         final Set<Class<? extends Command>> classes = reflections.getSubTypesOf(Command.class);
 
         for (Class<? extends Command> command : classes) {

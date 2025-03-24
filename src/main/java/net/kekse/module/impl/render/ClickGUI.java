@@ -26,6 +26,7 @@ public class ClickGUI extends Module {
     @Override
     public void onEnable() {
         super.onEnable();
+        System.out.println("ClickGUI module enabled");
     }
 
     @Override

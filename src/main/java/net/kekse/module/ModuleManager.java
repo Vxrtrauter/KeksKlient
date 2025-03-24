@@ -38,7 +38,7 @@ public final class ModuleManager {
 
 
     public final void register() {
-        final Reflections refl = new Reflections("net.Vxrtrauter.module.impl");
+        final Reflections refl = new Reflections("net.kekse.module.impl");
 
         final Set<Class<? extends Module>> classes = refl.getSubTypesOf(Module.class);
 
