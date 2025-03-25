@@ -1,7 +1,7 @@
 invertYMouse:false
 mouseSensitivity:0.31690142
 fov:0.05
-gamma:0.2112676
+gamma:3.0
 saturation:0.0
 renderDistance:8
 guiScale:2
@@ -10,10 +10,10 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
-renderClouds:true
+renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
