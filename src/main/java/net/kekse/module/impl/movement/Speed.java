@@ -2,7 +2,6 @@ package net.kekse.module.impl.movement;
 
 import me.zero.alpine.listener.Listener;
 import me.zero.alpine.listener.Subscribe;
-import net.kekse.event.impl.input.EventKey;
 import net.kekse.event.impl.update.EventUpdate;
 import net.kekse.module.Category;
 import net.kekse.module.Module;
@@ -14,7 +13,7 @@ import org.lwjgl.input.Keyboard;
 @ModuleInfo(
         name = "Speed",
         description = "Gives your Player more Speed.",
-        category = Category.MOVEMENT
+        category = Category.Movement
 )
 
 

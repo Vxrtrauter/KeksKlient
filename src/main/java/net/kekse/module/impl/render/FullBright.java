@@ -16,7 +16,7 @@ import org.lwjgl.input.Keyboard;
 @ModuleInfo(
         name = "Fullbright",
         description = "Makes ur game look bright",
-        category = Category.RENDER
+        category = Category.Render
 )
 public final class FullBright extends Module {
 

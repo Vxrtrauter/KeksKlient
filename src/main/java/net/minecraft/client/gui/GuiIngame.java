@@ -157,10 +157,10 @@ public class GuiIngame extends Gui
         {
             this.renderTooltip(scaledresolution, partialTicks);
         }
-        // EDITED RENDER IMPL
+        // EDITED Render IMPL
         final Event2D event = new Event2D(partialTicks, scaledresolution);
         KeksKlient.BUS.post(event);
-        // EDITED RENDER IMPL
+        // EDITED Render IMPL
 
         GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
         this.mc.getTextureManager().bindTexture(icons);

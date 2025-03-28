@@ -13,7 +13,7 @@ import org.lwjgl.input.Keyboard;
 @ModuleInfo(
         name = "ClickGUI",
         description = "Opens the ClickGUI",
-        category = Category.RENDER
+        category = Category.Render
 )
 
 public class ClickGUI extends Module {

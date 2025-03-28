@@ -12,7 +12,7 @@ import org.lwjgl.input.Keyboard;
 @ModuleInfo(
         name = "Sprint",
         description = "Sets your Sprinting to true",
-        category = Category.MOVEMENT
+        category = Category.Movement
 )
 public final class Sprint extends Module {
 

@@ -172,9 +172,9 @@ public class EntityPlayerSP extends AbstractClientPlayer
     {
         if (this.worldObj.isBlockLoaded(new BlockPos(this.posX, 0.0D, this.posZ)))
         {
-            // EDITED CLIENT EVENT
+            // EDITED Client EVENT
             KeksKlient.BUS.post(new EventUpdate());
-            // EDITED CLIENT EVENT
+            // EDITED Client EVENT
 
             super.onUpdate();
 

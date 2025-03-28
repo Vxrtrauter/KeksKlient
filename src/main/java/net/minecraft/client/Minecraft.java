@@ -1930,9 +1930,9 @@ public class Minecraft implements IThreadListener, IPlayerUsage
                     }
                     else
                     {
-                        // EDITED CLIENT EVENT
+                        // EDITED Client EVENT
                         KeksKlient.BUS.post(new EventKey(k));
-                        // EDITED CLIENT EVENT
+                        // EDITED Client EVENT
 
                         if (k == 1)
                         {
