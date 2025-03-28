@@ -29,11 +29,20 @@
                         </goals>
                     </execution>
                 </executions>
-
                 <configuration>
-                    <finalName>Timeless Client</finalName>
-                    <minimizeJar>true</minimizeJar>
+                    <finalName>KeksKlient</finalName>
+                    <minimizeJar>false</minimizeJar>
                     <createDependencyReducedPom>false</createDependencyReducedPom>
+                    <relocations>
+                        <relocation>
+                            <pattern>org.apache.http</pattern>
+                            <shadedPattern>net.kekse.shaded.org.apache.http</shadedPattern>
+                        </relocation>
+                        <relocation>
+                            <pattern>org.apache.commons</pattern>
+                            <shadedPattern>net.kekse.shaded.org.apache.commons</shadedPattern>
+                        </relocation>
+                    </relocations>
                 </configuration>
             </plugin>
             <plugin>
@@ -186,11 +195,7 @@
             <version>4.5.13</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpcore</artifactId>
-            <version>4.3.2</version>
-        </dependency>
+
 
         <dependency>
             <groupId>com.github.oshi</groupId>
@@ -348,6 +353,12 @@
             <groupId>com.mojang</groupId>
             <artifactId>authlib</artifactId>
             <version>1.5.21</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.16</version>
         </dependency>
 
     </dependencies>

@@ -1,177 +1,336 @@
-[18:37:40] [Client thread/INFO]: Setting user: Player343
-[18:37:40] [Client thread/INFO]: (Session ID is token:0:Player343)
-[18:37:42] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkWatchEvent$UnWatch
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.relauncher.CoreModManager
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.DimensionManager
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.EventBus
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event$Result
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.ExtendedBlockState
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.FMLClientHandler
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.FMLCommonHandler
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.biome.BiomeGenBase.getWaterColorMultiplier
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addDestroyEffects
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addHitEffects
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canCreatureSpawn
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canRenderInLayer
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.doesSideBlockRendering
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getBedDirection
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getExtendedState
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getLightOpacity
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getLightValue
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.hasTileEntity
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isAir
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBed
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBedFoot
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isSideSolid
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.ChunkCache.isSideSolid
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.canRiderInteract
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.captureDrops
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.capturedDrops
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRenderInPass
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRiderSit
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.item.Item.delegate
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getDurabilityForDisplay
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getModel
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.onEntitySwing
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.shouldCauseReequipAnimation
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.showDurabilityBar
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeModContainer
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.potion.PotionEffect.isCurativeItem
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.canRenderBreaking
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.getRenderBoundingBox
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.hasFastRenderer
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.shouldRenderInPass
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.preDraw
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.postDraw
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.countEntities
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.getPerWorldStorage
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getCloudRenderer
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSkyRenderer
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getWeatherRenderer
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSaveFolder
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.GuiModList
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IColoredBakedQuad
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.IExtendedBlockState
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IModel
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Pre
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Post
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
-[18:37:42] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
-[18:37:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineClassTransformer
-[18:37:42] [Client thread/INFO]: LWJGL Version: 2.9.4
-[18:37:42] [Client thread/INFO]: [OptiFine] 
-[18:37:42] [Client thread/INFO]: [OptiFine] OptiFine_1.8.9_HD_U_L5
-[18:37:42] [Client thread/INFO]: [OptiFine] Build: null
-[18:37:42] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
-[18:37:42] [Client thread/INFO]: [OptiFine] Java: 1.8.0_442, Amazon.com Inc.
-[18:37:42] [Client thread/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
-[18:37:42] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
-[18:37:42] [Client thread/INFO]: [OptiFine] OpenGL: NVIDIA GeForce GTX 970/PCIe/SSE2, version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
-[18:37:42] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
-[18:37:42] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
-[18:37:42] [VersionCheck/INFO]: [OptiFine] Checking for new version
-[18:37:42] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 566.36
-[18:37:42] [Client thread/INFO]: [Shaders] Vendor:  NVIDIA Corporation
-[18:37:42] [Client thread/INFO]: [Shaders] Renderer: NVIDIA GeForce GTX 970/PCIe/SSE2
-[18:37:42] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
-[18:37:42] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
-[18:37:42] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
-[18:37:42] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
-[18:37:42] [Client thread/INFO]: [Shaders] Load shaders configuration.
-[18:37:42] [Client thread/INFO]: [Shaders] Save shaders configuration.
-[18:37:42] [Client thread/INFO]: [Shaders] No shaderpack loaded.
-[18:37:43] [VersionCheck/INFO]: [OptiFine] Version found: M5
-[18:37:44] [Client thread/INFO]: Reloading ResourceManager: Default, ! §dshiro §5revamp -§d shayaa §5edit §dprivate.zip
-[18:37:44] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
-[18:37:44] [Client thread/INFO]: [OptiFine] Resource packs: ! §dshiro §5revamp -§d shayaa §5edit §dprivate.zip
-[18:37:44] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.Attributes
-[18:37:44] [Client thread/ERROR]: Couldn't initialize twitch stream
-[18:37:44] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[18:37:45] [Thread-4/INFO]: Initializing LWJGL OpenAL
-[18:37:45] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[18:37:45] [Thread-4/INFO]: OpenAL initialized.
-[18:37:45] [Client thread/INFO]: [OptiFine] Loading textures/font/ascii.properties
-[18:37:45] [Client thread/INFO]: [OptiFine] Loading textures/font/ascii_sga.properties
-[18:37:45] [Sound Library Loader/INFO]: Sound engine started
-[18:37:46] [Client thread/INFO]: [OptiFine] Sprite size: 32
-[18:37:46] [Client thread/INFO]: [OptiFine] Mipmap levels: 5
-[18:37:46] [Client thread/INFO]: [OptiFine] Multitexture: false
-[18:37:46] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
-[18:37:46] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
-[18:37:46] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
-[18:37:46] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:mcpatcher/ctm/default/empty, 16 -> 32
-[18:37:47] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:blocks/sponge_wet, 16 -> 32
-[18:37:47] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:blocks/sponge, 16 -> 32
-[18:37:47] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:items/beef_raw, 16 -> 32
-[18:37:47] [Client thread/INFO]: Created: 2048x2048 textures-atlas
-[18:37:47] [Client thread/INFO]: [OptiFine] Animated sprites: 11
-[18:37:49] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
-[18:37:49] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world-1.png
-[18:37:49] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
-[18:37:49] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world1.png
-[18:37:49] [Client thread/INFO]: [OptiFine] CustomColors: Loading mcpatcher/color.properties
-[18:37:49] [Client thread/INFO]: [OptiFine] CustomColors: drop.water = ffffff
-[18:37:49] [Client thread/INFO]: [OptiFine] CustomColors: lilypad = 577119
-[18:37:49] [Client thread/INFO]: [OptiFine] CustomColors: Potion colors: 20
-[18:37:49] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky1.properties
-[18:37:50] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky2.properties
-[18:37:50] [Client thread/INFO]: [OptiFine] CustomSky: Texture not found: minecraft:mcpatcher/sky/world0/sky2.png
-[18:37:50] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky3.properties
-[18:37:50] [Client thread/INFO]: [OptiFine] CustomSky: Texture not found: minecraft:mcpatcher/sky/world0/starfield03.png
-[18:37:50] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky4.properties
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/bat.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/blaze.png, variants: 4
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/chicken.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/cow/cow.png, variants: 5
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/cow/mooshroom.png, variants: 2
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/creeper/creeper.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/enderman/enderman.png, variants: 5
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/ghast/ghast_shooting.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/iron_golem.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/pig/pig.png, variants: 4
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/silverfish.png, variants: 4
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/skeleton/skeleton.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/skeleton/wither_skeleton.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/slime/magmacube.png, variants: 4
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/slime/slime.png, variants: 4
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider/cave_spider.png, variants: 4
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider/spider.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider_eyes.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/squid.png, variants: 4
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/steve.png, variants: 8
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/witch.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf.png, variants: 5
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf_angry.png, variants: 5
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf_tame.png, variants: 5
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/zombie/zombie.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/zombie/zombie_villager.png, variants: 3
-[18:37:51] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/zombie_pigman.png, variants: 4
-[18:37:51] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
-[18:37:57] [Client thread/INFO]: Stopping!
-[18:38:40] [Client thread/INFO]: SoundSystem shutting down...
+[19:02:25] [Client thread/INFO]: Setting user: Player781
+[19:02:25] [Client thread/INFO]: (Session ID is token:0:Player781)
+[19:02:26] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkWatchEvent$UnWatch
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.relauncher.CoreModManager
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.DimensionManager
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.EventBus
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event$Result
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.ExtendedBlockState
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.FMLClientHandler
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.FMLCommonHandler
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.biome.BiomeGenBase.getWaterColorMultiplier
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addDestroyEffects
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addHitEffects
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canCreatureSpawn
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canRenderInLayer
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.doesSideBlockRendering
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getBedDirection
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getExtendedState
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getLightOpacity
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getLightValue
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.hasTileEntity
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isAir
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBed
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBedFoot
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isSideSolid
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.ChunkCache.isSideSolid
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.canRiderInteract
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.captureDrops
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.capturedDrops
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRenderInPass
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRiderSit
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.item.Item.delegate
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getDurabilityForDisplay
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getModel
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.onEntitySwing
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.shouldCauseReequipAnimation
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.showDurabilityBar
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeModContainer
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.potion.PotionEffect.isCurativeItem
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.canRenderBreaking
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.getRenderBoundingBox
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.hasFastRenderer
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.shouldRenderInPass
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.preDraw
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.postDraw
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.countEntities
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.getPerWorldStorage
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getCloudRenderer
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSkyRenderer
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getWeatherRenderer
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSaveFolder
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.GuiModList
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IColoredBakedQuad
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.IExtendedBlockState
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IModel
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Pre
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Post
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
+[19:02:26] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[19:02:26] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineClassTransformer
+[19:02:26] [Client thread/INFO]: LWJGL Version: 2.9.4
+[19:02:26] [Client thread/INFO]: [OptiFine] 
+[19:02:26] [Client thread/INFO]: [OptiFine] OptiFine_1.8.9_HD_U_L5
+[19:02:26] [Client thread/INFO]: [OptiFine] Build: null
+[19:02:26] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[19:02:26] [Client thread/INFO]: [OptiFine] Java: 1.8.0_442, Amazon.com Inc.
+[19:02:26] [Client thread/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+[19:02:26] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[19:02:26] [Client thread/INFO]: [OptiFine] OpenGL: NVIDIA GeForce GTX 970/PCIe/SSE2, version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
+[19:02:26] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[19:02:26] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[19:02:26] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[19:02:27] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 566.36
+[19:02:27] [Client thread/INFO]: [Shaders] Vendor:  NVIDIA Corporation
+[19:02:27] [Client thread/INFO]: [Shaders] Renderer: NVIDIA GeForce GTX 970/PCIe/SSE2
+[19:02:27] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[19:02:27] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[19:02:27] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[19:02:27] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[19:02:27] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[19:02:27] [Client thread/INFO]: [Shaders] Save shaders configuration.
+[19:02:27] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[19:02:27] [VersionCheck/INFO]: [OptiFine] Version found: M5
+[19:02:29] [Client thread/INFO]: Reloading ResourceManager: Default, ! §dshiro §5revamp -§d shayaa §5edit §dprivate.zip
+[19:02:29] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[19:02:29] [Client thread/INFO]: [OptiFine] Resource packs: ! §dshiro §5revamp -§d shayaa §5edit §dprivate.zip
+[19:02:29] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.Attributes
+[19:02:29] [Client thread/ERROR]: Couldn't initialize twitch stream
+[19:02:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:02:29] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[19:02:29] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:02:29] [Thread-4/INFO]: OpenAL initialized.
+[19:02:29] [Client thread/INFO]: [OptiFine] Loading textures/font/ascii.properties
+[19:02:29] [Client thread/INFO]: [OptiFine] Loading textures/font/ascii_sga.properties
+[19:02:29] [Sound Library Loader/INFO]: Sound engine started
+[19:02:31] [Client thread/INFO]: [OptiFine] Sprite size: 32
+[19:02:31] [Client thread/INFO]: [OptiFine] Mipmap levels: 5
+[19:02:31] [Client thread/INFO]: [OptiFine] Multitexture: false
+[19:02:31] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[19:02:31] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[19:02:31] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[19:02:31] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:mcpatcher/ctm/default/empty, 16 -> 32
+[19:02:31] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:blocks/sponge_wet, 16 -> 32
+[19:02:31] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:blocks/sponge, 16 -> 32
+[19:02:31] [Client thread/INFO]: [OptiFine] Scaled too small texture: minecraft:items/beef_raw, 16 -> 32
+[19:02:31] [Client thread/INFO]: Created: 2048x2048 textures-atlas
+[19:02:31] [Client thread/INFO]: [OptiFine] Animated sprites: 11
+[19:02:33] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[19:02:33] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world-1.png
+[19:02:33] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
+[19:02:33] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world1.png
+[19:02:33] [Client thread/INFO]: [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[19:02:33] [Client thread/INFO]: [OptiFine] CustomColors: drop.water = ffffff
+[19:02:33] [Client thread/INFO]: [OptiFine] CustomColors: lilypad = 577119
+[19:02:33] [Client thread/INFO]: [OptiFine] CustomColors: Potion colors: 20
+[19:02:33] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky1.properties
+[19:02:34] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky2.properties
+[19:02:34] [Client thread/INFO]: [OptiFine] CustomSky: Texture not found: minecraft:mcpatcher/sky/world0/sky2.png
+[19:02:34] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky3.properties
+[19:02:34] [Client thread/INFO]: [OptiFine] CustomSky: Texture not found: minecraft:mcpatcher/sky/world0/starfield03.png
+[19:02:34] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky4.properties
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/bat.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/blaze.png, variants: 4
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/chicken.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/cow/cow.png, variants: 5
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/cow/mooshroom.png, variants: 2
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/creeper/creeper.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/enderman/enderman.png, variants: 5
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/ghast/ghast_shooting.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/iron_golem.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/pig/pig.png, variants: 4
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/silverfish.png, variants: 4
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/skeleton/skeleton.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/skeleton/wither_skeleton.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/slime/magmacube.png, variants: 4
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/slime/slime.png, variants: 4
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider/cave_spider.png, variants: 4
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider/spider.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider_eyes.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/squid.png, variants: 4
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/steve.png, variants: 8
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/witch.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf.png, variants: 5
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf_angry.png, variants: 5
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/wolf/wolf_tame.png, variants: 5
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/zombie/zombie.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/zombie/zombie_villager.png, variants: 3
+[19:02:36] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/zombie_pigman.png, variants: 4
+[19:02:36] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[19:03:11] [Client thread/INFO]: Connecting to eu.loyisa.cn, 25565
+[19:03:12] [Client thread/INFO]: [CHAT]        
+[19:03:12] [Client thread/INFO]: [CHAT] You are on the legacy(1.8.8) server!
+[19:03:12] [Client thread/INFO]: [CHAT] For the latest server, type /server latest!
+[19:03:12] [Client thread/INFO]: [CHAT] [+] Lisa2kmEntfernt
+[19:03:13] [Client thread/INFO]: [CHAT] Diona >> Your client brand is vanilla
+[19:03:14] [Client thread/INFO]: [CHAT] Diona >> Hi! it has been 13 days since your last login!
+[19:03:16] [Client thread/INFO]: [CHAT] Diona >> Welcome back!
+[19:03:17] [Client thread/INFO]: [CHAT] [+] QuackDMR
+[19:03:19] [Client thread/INFO]: [CHAT] [+] _Me1n4rD_
+[19:03:23] [Client thread/INFO]: [CHAT] Diona >> You can use /server latest command to join the 1.21.4 server!
+[19:03:23] [Client thread/INFO]: [CHAT] [-] _Me1n4rD_
+[19:03:29] [Client thread/INFO]: [CHAT] Diona >> All items on the ground will be cleaned in 60 seconds!
+[19:03:47] [Client thread/INFO]: [CHAT] Diona >> Use /back to teleport to your last death location!
+[19:03:59] [Client thread/INFO]: [CHAT] Diona >> All items on the ground will be cleaned in 30 seconds!
+[19:04:09] [Client thread/INFO]: [CHAT] [-] QuackDMR
+[19:04:13] [Client thread/INFO]: [CHAT] [-] Iksqe_
+[19:04:14] [Client thread/INFO]: [CHAT] [-] Najurax16
+[19:04:24] [Client thread/INFO]: [CHAT] Diona >> All items on the ground will be cleaned in 5 seconds!
+[19:04:27] [Client thread/INFO]: [CHAT] Diona >> You can use /server latest command to join the 1.21.4 server!
+[19:04:29] [Client thread/INFO]: [CHAT] Diona >> 0 items have been cleaned!
+[19:04:39] [Client thread/INFO]: [CHAT] §8[§6Keks§8] §fSet §bSpeed§f's §bMode§f to §bTest
+[19:04:40] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:1)
+[19:04:41] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:2)
+[19:04:41] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:4)
+[19:04:41] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:5)
+[19:04:41] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:6)
+[19:04:41] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:8)
+[19:04:42] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:11)
+[19:04:42] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:12)
+[19:04:42] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:14)
+[19:04:42] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:16)
+[19:04:42] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:17)
+[19:04:42] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:19)
+[19:04:43] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:22)
+[19:04:43] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:23)
+[19:04:43] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:24)
+[19:04:43] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:26)
+[19:04:43] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:29)
+[19:04:43] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:33)
+[19:04:43] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:38)
+[19:04:44] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:39)
+[19:04:44] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:41)
+[19:04:44] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:44)
+[19:04:44] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:45)
+[19:04:44] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:47)
+[19:04:44] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:50)
+[19:04:45] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:51)
+[19:04:45] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:53)
+[19:04:45] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:56)
+[19:04:47] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:57)
+[19:04:47] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:59)
+[19:04:47] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:62)
+[19:04:48] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:66)
+[19:04:48] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:71)
+[19:04:48] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:72)
+[19:04:48] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:74)
+[19:04:48] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:77)
+[19:04:48] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:78)
+[19:04:49] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:80)
+[19:04:49] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:81)
+[19:04:49] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:82)
+[19:04:49] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:84)
+[19:04:49] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:87)
+[19:04:49] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:88)
+[19:04:50] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:90)
+[19:04:54] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:92)
+[19:04:54] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:93)
+[19:04:54] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:94)
+[19:04:55] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:96)
+[19:04:55] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:97)
+[19:04:55] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:98)
+[19:04:55] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:100)
+[19:04:55] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:101)
+[19:04:55] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:102)
+[19:04:56] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:104)
+[19:04:56] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:107)
+[19:04:56] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:108)
+[19:04:56] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:110)
+[19:04:56] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:113)
+[19:04:56] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:112)
+[19:04:56] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:115)
+[19:04:58] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:118)
+[19:04:58] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:119)
+[19:04:59] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:120)
+[19:05:03] [Client thread/INFO]: [CHAT] Diona >> All scaffold areas will be cleaned in 5 seconds!
+[19:05:03] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:121)
+[19:05:04] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:122)
+[19:05:04] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:123)
+[19:05:04] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:124)
+[19:05:04] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:125)
+[19:05:04] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:127)
+[19:05:05] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:129)
+[19:05:05] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:130)
+[19:05:05] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:132)
+[19:05:05] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:133)
+[19:05:05] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:134)
+[19:05:05] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:136)
+[19:05:06] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:137)
+[19:05:06] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:138)
+[19:05:06] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:140)
+[19:05:06] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:141)
+[19:05:06] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:142)
+[19:05:06] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:144)
+[19:05:07] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:146)
+[19:05:07] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:145)
+[19:05:07] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:148)
+[19:05:07] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:151)
+[19:05:07] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:152)
+[19:05:07] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:154)
+[19:05:08] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:156)
+[19:05:08] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:157)
+[19:05:08] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:159)
+[19:05:08] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:162)
+[19:05:08] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:163)
+[19:05:08] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:165)
+[19:05:09] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:166)
+[19:05:09] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:167)
+[19:05:09] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:169)
+[19:05:09] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:172)
+[19:05:09] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:173)
+[19:05:09] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:175)
+[19:05:10] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:176)
+[19:05:10] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:177)
+[19:05:10] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:179)
+[19:05:31] [Client thread/INFO]: [CHAT] Diona >> Our Discord: https://discord.gg/fdmkfts
+[19:05:33] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: you know ur bypasses are bad when verus flags them
+[19:06:06] [Client thread/INFO]: [CHAT] 2TGI: Im convinced verus only flags vanilla modes
+[19:06:35] [Client thread/INFO]: [CHAT] Diona >> You can use /i command to get items!
+[19:07:03] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: What is the Difference between Vanilla and Other Modes? Is vanilla like only mc.thePlayer.motionY ?
+[19:07:10] [Client thread/INFO]: [CHAT] [SSS] Please mind your language!
+[19:07:13] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: like without other stuff
+[19:07:31] [Client thread/INFO]: [CHAT] 2TGI: On what module
+[19:07:37] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: Like in general
+[19:07:39] [Client thread/INFO]: [CHAT] Diona >> You can use /i command to get items!
+[19:07:44] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: But lets say for a towetr
+[19:07:46] [Client thread/INFO]: [CHAT] Diona >> All items on the ground will be cleaned in 60 seconds!
+[19:07:46] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: Tower
+[19:07:54] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: there is currently a Wd Vanilla Tower
+[19:08:03] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: How toes it differ from a regular wd tower?
+[19:08:03] [Client thread/INFO]: [CHAT] 2TGI: you can use motion for bypasses
+[19:08:12] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: like mc.thePlayer.motionY *= 1.02; ?
+[19:08:16] [Client thread/INFO]: [CHAT] Diona >> All items on the ground will be cleaned in 30 seconds!
+[19:08:21] [Client thread/INFO]: [CHAT] 2TGI: You just have to find some flaw I guess
+[19:08:21] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: as example
+[19:08:21] [Client thread/INFO]: [CHAT] [+] S5V
+[19:08:32] [Client thread/INFO]: [CHAT] 2TGI: That would just increase motionY yes
+[19:08:38] [Client thread/INFO]: [CHAT] Lisa2kmEntfernt: yeah ik that haha
+[19:08:41] [Client thread/INFO]: [CHAT] Diona >> All items on the ground will be cleaned in 5 seconds!
+[19:08:43] [Client thread/INFO]: [CHAT] Diona >> You can use /i command to get items!
+[19:08:46] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:156)
+[19:08:46] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:157)
+[19:08:46] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:159)
+[19:08:46] [Client thread/INFO]: [CHAT] [+] GravyyTrain4
+[19:08:46] [Client thread/INFO]: [CHAT] Diona >> 0 items have been cleaned!
+[19:08:46] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:162)
+[19:08:46] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:163)
+[19:08:46] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:165)
+[19:08:47] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:168)
+[19:08:47] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:169)
+[19:08:47] [Client thread/INFO]: [CHAT] [Verus] Lisa2kmEntfernt failed Fly (I) (vl:170)
