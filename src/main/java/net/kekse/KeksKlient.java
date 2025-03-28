@@ -31,7 +31,7 @@ public enum KeksKlient implements Subscriber {
             name = "KeksKlient",
             version = "b001 ClosedBETA",
             commandPrefix = ".",
-            clientPrefix = "[Keks] ",
+            clientPrefix = "&8[&6Keks&8] ",
             authors = "Vxrtrauter & KeksNino";
 
 

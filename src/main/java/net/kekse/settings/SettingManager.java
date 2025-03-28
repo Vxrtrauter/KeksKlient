@@ -58,4 +58,8 @@ public class SettingManager {
         return null;
     }
 
+    public List<Setting> getSettingsForModule(Module mod) {
+        return mod.getSList();
+    }
+
 }

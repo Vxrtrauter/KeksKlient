@@ -25,7 +25,11 @@ public final class HelpCommand extends Command {
         if (args.length > 0) {
             final Command command = KeksKlient.INSTANCE.getCm().getCommand(args[0])
                     .orElseThrow(() ->
-                            new CommandException(String.format(EnumChatFormatting.RED + "ERROR: Command \"%s\" not found!", args[0])));
+                            new CommandException("&cERROR: &fCommand &b" + args[0] + "&f not found!"));
+
+            ChatUtil.addChatMessage("&fCommand: &b" + command.getName());
+            ChatUtil.addChatMessage("&fUsage: &b" + command.getUsage());
+            ChatUtil.addChatMessage("&fDescription: &b" + command.getDescription());
             return;
         }
 
@@ -35,8 +39,7 @@ public final class HelpCommand extends Command {
                 .stream()
                 .filter(command -> !(command instanceof HelpCommand))
                 .forEach(command -> ChatUtil.addChatMessage(
-                        String.format(EnumChatFormatting.YELLOW + "%s "+ EnumChatFormatting.WHITE + "- " + EnumChatFormatting.GRAY + "%s", " " + command.getName(), command.getDescription() + "")
-                ,true));
-
+                        "&b" + command.getName() + " &7- &f" + command.getDescription()
+                        , true));
     }
 }
