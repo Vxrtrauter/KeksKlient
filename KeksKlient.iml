@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/17" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/1d" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/24" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/25" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/2e" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/3f" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/4d" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/65" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/6b" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/74" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/77" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/79" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/84" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/86" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/87" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/8d" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/93" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/98" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/a1" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/a4" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/a6" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/ab" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/b1" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/bb" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/bd" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/c1" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/ce" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/cf" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/d2" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/d3" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/d5" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/da" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/dc" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/e7" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/ea" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/ee" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/f0" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/assets/skins/fe" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/resourcepacks" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/saves/MCP Development World/DIM-1" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/saves/MCP Development World/DIM1" />
+      <excludeFolder url="file://$MODULE_DIR$/test_run/shaderpacks" />
+    </content>
+  </component>
+</module>
