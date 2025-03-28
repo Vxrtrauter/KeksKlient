@@ -28,11 +28,8 @@ public class ModuleButtons {
         RenderUtil.rect(parent.x, offset + 30, parent.width, parent.height + 3, new Color(28, 28, 28, 255));
         RenderUtil.rect(parent.x, offset + 30, parent.width, 1, new Color(60, 60, 60, 255));
 
-        if(mod.isToggled()) {
-            RenderUtil.rect(parent.x + 76, offset + 40, 5, 6, Color.GREEN);
-        } else {
-            RenderUtil.rect(parent.x + 76, offset + 40, 5, 6, new Color(0, 0, 0, 0));
-        }
+        if(mod.isToggled()) RenderUtil.rect(parent.x + 76, offset + 40, 5, 5, Color.GREEN);
+
         fr.drawString(mod.getName(), parent.x + 6, offset + 38, -1);
     }
 
