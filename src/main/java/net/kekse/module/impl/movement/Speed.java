@@ -36,16 +36,9 @@ public class Speed extends Module {
         super.onDisable();
     }
 
-
-
-
     @Subscribe
     private final Listener<EventUpdate> onUpdate = new Listener<>(e -> {
         if (mc.thePlayer == null || mc.theWorld == null) return;
-
-
-
-
 
         switch(mode.getCurrentMode()) {
             case "LegitHop":

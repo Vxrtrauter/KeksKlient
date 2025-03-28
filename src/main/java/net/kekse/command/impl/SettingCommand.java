@@ -112,7 +112,7 @@ public class SettingCommand extends Command {
                     return;
                 }
                 ms.setCurrentMode(targetMode);
-                ChatUtil.addChatMessage("Set &b" + mod.getName() + "&f's &b" + setting.getName() + "&f to &b" + targetMode);
+                ChatUtil.addChatMessage("&fSet &b" + mod.getName() + "&f's &b" + setting.getName() + "&f to &b" + targetMode);
             }
         } catch (NumberFormatException e) {
             ChatUtil.addChatMessage("&cYou must pass a valid number as an argument!");

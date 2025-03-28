@@ -17,7 +17,7 @@ public class DropdownGUI extends GuiScreen {
         frames = new ArrayList<>();
         int offset = 30;
         for(Category cat : Category.values()) {
-            frames.add(new Frame(cat, offset, 30, 100 + offset, 18));
+            frames.add(new Frame(cat, offset, 30, 90, 18));
             offset += 130;
         }
     }

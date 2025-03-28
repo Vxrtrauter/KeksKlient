@@ -43,21 +43,11 @@ public class Frame {
         FontRenderer fr = KeksKlient.INSTANCE.getMc().fontRendererObj;
 
         RenderUtil.rect(x, y, width, height, new Color(35, 35, 35, 255));
-        fr.drawString(cat.name(), x + 6, y + 6, -1);
+        fr.drawString(cat.name(), x + 5, y + 4, -1);
 
+        fr.drawString(extended ? "-" : "+", x + 76, y + 4, -1);
 
-        if(extended) {
-            fr.drawString("-", x + 89, y + 6, -1);
-            for(ModuleButtons mb : moduleButtons) {
-                mb.drawScreen(mouseX, mouseY, partialTicks);
-            }
-        } else {
-            fr.drawString("+", x + 89, y + 6, -1);
-        }
-
-
-
-
+        if(extended) for(ModuleButtons mb : moduleButtons) { mb.drawScreen(mouseX, mouseY, partialTicks);}
 
     }
 
