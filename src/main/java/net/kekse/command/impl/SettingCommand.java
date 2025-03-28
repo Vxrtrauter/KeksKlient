@@ -23,44 +23,48 @@ import net.kekse.util.ChatUtil;
 public class SettingCommand extends Command {
     @Override
     public void execute(String... args) throws CommandException {
-        Module mod = KeksKlient.INSTANCE.getMm().getModule(args[0]);
-
-
-
-        if(args.length != 3 && args.length != 6) {
-            ChatUtil.addChatMessage("&9Usage: &c\"&b" + getUsage() + "&c\"\n");
+        if (args.length < 1) {
+            ChatUtil.addChatMessage("&9Usage: &c\"&b" + getUsage() + "&c\"");
             return;
         }
 
-        if(mod == null) {
-            ChatUtil.addChatMessage("&9Module not found\n");
+        Module mod = KeksKlient.INSTANCE.getMm().getModule(args[0]);
+
+        if (args.length == 1 && mod == null) {
+            ChatUtil.addChatMessage("&9Module not found");
+            return;
+        }
+
+
+
+        if (args.length != 3 && args.length != 6) {
+            ChatUtil.addChatMessage("&9Usage: &c\"&b" + getUsage() + "&c\"");
             return;
         }
 
         Setting setting = KeksKlient.INSTANCE.getSm().getSetting(mod, args[1]);
 
-        if(setting == null) {
-            ChatUtil.addChatMessage("&9Setting not found\n");
+        if (setting == null) {
+            ChatUtil.addChatMessage("&9Setting not found");
             return;
         }
 
         try {
-            if(setting instanceof BooleanSetting) {
+            if (setting instanceof BooleanSetting) {
                 BooleanSetting bs = (BooleanSetting) setting;
 
-                if(!(args[2].equalsIgnoreCase("true") || args[2].equalsIgnoreCase("false"))) {
-                    ChatUtil.addChatMessage("You must either give &atrue&r &4or $cfalse");
+                if (!(args[2].equalsIgnoreCase("true") || args[2].equalsIgnoreCase("false"))) {
+                    ChatUtil.addChatMessage("You must either give &atrue&r &4or &cfalse");
                     return;
                 }
-
 
                 bs.setState(args[2].equalsIgnoreCase("true"));
             }
 
-            if(setting instanceof DoubleSetting) {
+            if (setting instanceof DoubleSetting) {
                 DoubleSetting ds = (DoubleSetting) setting;
                 double myDouble = Double.parseDouble(args[2]);
-                if(myDouble > ds.getMaxVal()) {
+                if (myDouble > ds.getMaxVal()) {
                     ChatUtil.addChatMessage("&cError: Value exceeds maximum value");
                     return;
                 }
@@ -69,11 +73,11 @@ public class SettingCommand extends Command {
                 return;
             }
 
-            if(setting instanceof ModeSetting) {
+            if (setting instanceof ModeSetting) {
                 ModeSetting ms = (ModeSetting) setting;
 
-                if(ms.getModes().stream().noneMatch(s -> s.equalsIgnoreCase(args[2]))) {
-                    ChatUtil.addChatMessage("Specified module was not found");
+                if (ms.getModes().stream().noneMatch(s -> s.equalsIgnoreCase(args[2]))) {
+                    ChatUtil.addChatMessage("Specified mode was not found");
                     return;
                 }
                 ms.setCurrentMode(args[2]);
@@ -82,8 +86,6 @@ public class SettingCommand extends Command {
 
         } catch (NumberFormatException e) {
             ChatUtil.addChatMessage("You must pass a number as an Argument/Invalid Number!");
-            return;
         }
-
     }
 }

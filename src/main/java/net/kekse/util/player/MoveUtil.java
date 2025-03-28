@@ -17,13 +17,20 @@ public class MoveUtil {
         return mc.thePlayer.moveForward != 0 || mc.thePlayer.moveStrafing != 0;
     }
 
-    public static void startSprinting() {
-        if (mc.thePlayer.isCollidedHorizontally) return;
-        if (mc.thePlayer.moveForward <= 0) return;
-        if (mc.thePlayer.isUsingItem()) return;
-        if (mc.thePlayer.isSneaking()) return;
+    public static boolean canSprint() {
+        if (mc.thePlayer.moveForward >= 0.8F
+                && !mc.thePlayer.isCollidedHorizontally
+                && (mc.thePlayer.getFoodStats().getFoodLevel() > 6 || mc.thePlayer.capabilities.allowFlying)
+                && !mc.thePlayer.isPotionActive(Potion.blindness)
+                && !mc.thePlayer.isUsingItem()
+                && !mc.thePlayer.isSneaking()
+                && Math.abs(mc.thePlayer.moveForward) >= 0.8F || Math.abs(mc.thePlayer.moveStrafing) >= 0.8F) {
+                    return true;
+        } else {
+            return false;
+        }
 
-        mc.thePlayer.setSprinting(true);
+
     }
 
 }

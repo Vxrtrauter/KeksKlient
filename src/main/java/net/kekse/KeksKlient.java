@@ -29,7 +29,7 @@ public enum KeksKlient implements Subscriber {
 
     private String
             name = "KeksKlient",
-            version = "b001",
+            version = "b001 ClosedBETA",
             commandPrefix = ".",
             clientPrefix = "[Keks] ",
             authors = "Vxrtrauter & KeksNino";
@@ -43,8 +43,8 @@ public enum KeksKlient implements Subscriber {
 
     public final void init() {
         BUS.subscribe(this);
-        System.out.println("Starting KeksKlient " + version);
-        Display.setTitle(name + " - "+ version);
+        System.out.println("Starting " + name + " " + version);
+        Display.setTitle(name + " | "+ version);
 
         mm = new ModuleManager();
         cm = new CommandManager();

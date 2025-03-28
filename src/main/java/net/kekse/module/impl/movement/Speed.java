@@ -2,10 +2,12 @@ package net.kekse.module.impl.movement;
 
 import me.zero.alpine.listener.Listener;
 import me.zero.alpine.listener.Subscribe;
+import net.kekse.event.impl.input.EventKey;
 import net.kekse.event.impl.update.EventUpdate;
 import net.kekse.module.Category;
 import net.kekse.module.Module;
 import net.kekse.module.ModuleInfo;
+import net.kekse.settings.impl.ModeSetting;
 import net.kekse.util.player.MoveUtil;
 import org.lwjgl.input.Keyboard;
 
@@ -18,7 +20,10 @@ import org.lwjgl.input.Keyboard;
 
 public class Speed extends Module {
 
+    private final ModeSetting mode = new ModeSetting("Mode", "LegitHop", "Test");
+
     public Speed() {
+        addSetting(mode);
         setKey(Keyboard.KEY_X);
     }
 
@@ -33,38 +38,45 @@ public class Speed extends Module {
     }
 
 
+
+
     @Subscribe
     private final Listener<EventUpdate> onUpdate = new Listener<>(e -> {
         if (mc.thePlayer == null || mc.theWorld == null) return;
 
 
-        if (MoveUtil.isMoving()) {
-            MoveUtil.startSprinting();
-            if (mc.thePlayer.onGround) {
-                mc.thePlayer.motionY *= 1.02;
-                mc.thePlayer.motionX *= 1.02;
-                mc.thePlayer.jump();
-            }
 
-            if (!mc.thePlayer.onGround && mc.thePlayer.motionY < 0) {
-                mc.thePlayer.motionY -= 0.08;
-            }
+
+
+        switch(mode.getCurrentMode()) {
+            case "LegitHop":
+                if (MoveUtil.isMoving()) {
+                    if (MoveUtil.canSprint()) mc.thePlayer.setSprinting(true);
+                    if (mc.thePlayer.onGround) {
+                        mc.thePlayer.jump();
+                    }
+                }
+                break;
+
+            case "Test":
+                if (MoveUtil.isMoving()) {
+                    if (MoveUtil.canSprint()) mc.thePlayer.setSprinting(true);
+                    if (mc.thePlayer.onGround) {
+                        mc.thePlayer.motionY *= 1.02;
+                        mc.thePlayer.motionX *= 1.02;
+                        mc.thePlayer.jump();
+                    }
+
+                    if (!mc.thePlayer.onGround && mc.thePlayer.motionY < 0) {
+                        mc.thePlayer.motionY -= 0.08;
+                    }
+                }
+                break;
 
         }
-
-    // doesnt bypass shit yet
-    // if u wanna make it bypass remove line 49-51 (if (!mc.thePlayer.onGround...)
-    // and also make the two motionY & motionX values to 1.00
-    // its basically a legitHop if you do that
+        mc.gameSettings.keyBindJump.pressed = false;
 
 
-});
-
-
-
-
-
-
-
+    });
 
 }
