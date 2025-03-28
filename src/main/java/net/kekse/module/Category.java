@@ -5,6 +5,7 @@ public enum Category {
     Movement,
     Player,
     Render,
+    World,
     Client,
     Misc
 

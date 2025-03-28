@@ -54,8 +54,6 @@ public class Speed extends Module {
                 if (MoveUtil.isMoving()) {
                     if (MoveUtil.canSprint()) mc.thePlayer.setSprinting(true);
                     if (mc.thePlayer.onGround) {
-                        mc.thePlayer.motionY *= 1.02;
-                        mc.thePlayer.motionX *= 1.02;
                         mc.thePlayer.jump();
                     }
 
