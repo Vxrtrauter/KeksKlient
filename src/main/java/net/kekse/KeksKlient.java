@@ -6,6 +6,7 @@ import me.zero.alpine.bus.EventManager;
 import me.zero.alpine.listener.Listener;
 import me.zero.alpine.listener.Subscribe;
 import me.zero.alpine.listener.Subscriber;
+import net.kekse.auth.AccountManager;
 import net.kekse.command.CommandManager;
 import net.kekse.event.impl.input.EventKey;
 import net.kekse.ui.dropdown.DropdownGUI;
@@ -51,10 +52,14 @@ public enum KeksKlient implements Subscriber {
         sm = new SettingManager();
 
         gui = new DropdownGUI();
+
+        AccountManager.load();
     }
 
     public final void shutdown() {
+        AccountManager.save();
         BUS.unsubscribe(this);
+
     }
 
     public Minecraft getMc() {
