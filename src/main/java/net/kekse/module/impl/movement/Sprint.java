@@ -18,12 +18,12 @@ public final class Sprint extends Module {
 
     public Sprint() {
         setKey(Keyboard.KEY_B);
+        toggle();
     }
 
     @Override
     public void onEnable() {
         super.onEnable();
-        toggle();
     }
 
     @Override

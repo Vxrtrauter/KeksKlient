@@ -18,12 +18,12 @@ import org.lwjgl.input.Keyboard;
 public class NoHitDelay extends Module {
     public NoHitDelay() {
         setKey(Keyboard.KEY_NONE);
+        toggle();
     }
 
     @Override
     public void onEnable() {
         super.onEnable();
-        toggle();
     }
 
     @Override
