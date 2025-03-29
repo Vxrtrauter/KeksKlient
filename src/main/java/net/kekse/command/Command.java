@@ -13,7 +13,7 @@ import java.util.List;
 @Getter
 public abstract class Command {
 
-    protected static final Minecraft mc = KeksKlient.INSTANCE.getMc();
+    public static final Minecraft mc = KeksKlient.INSTANCE.getMc();
 
     private final String name;
     private final String description;

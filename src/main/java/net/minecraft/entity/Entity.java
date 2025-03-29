@@ -52,6 +52,8 @@ public abstract class Entity implements ICommandSender
     private static final AxisAlignedBB ZERO_AABB = new AxisAlignedBB(0.0D, 0.0D, 0.0D, 0.0D, 0.0D, 0.0D);
     private static int nextEntityID;
     private int entityId;
+    public int offGroundTicks, onGroundTicks;
+    int ticksSprint;
     public double renderDistanceWeight;
 
     /**
@@ -390,8 +392,26 @@ public abstract class Entity implements ICommandSender
     /**
      * Called to update the entity's position/logic.
      */
-    public void onUpdate()
-    {
+    public void onUpdate() {
+
+        if (this.onGround) {
+            offGroundTicks = 0;
+            onGroundTicks++;
+        } else {
+            onGroundTicks = 0;
+            offGroundTicks++;
+        }
+
+
+
+        if (isSprinting()) {
+            ticksSprint++;
+        } else {
+            ticksSprint = 0;
+        }
+
+
+
         this.onEntityUpdate();
     }
 

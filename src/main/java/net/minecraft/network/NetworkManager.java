@@ -186,6 +186,63 @@ public class NetworkManager extends SimpleChannelInboundHandler<Packet>
         this.packetListener = handler;
     }
 
+
+    public void sendUnregisteredPacket(final Packet packetIn) {
+        if (this.isChannelOpen()) {
+            this.flushOutboundQueue();
+            this.dispatchUnregisteredPacket(packetIn, null);
+        } else {
+            this.field_181680_j.writeLock().lock();
+
+            try {
+                this.outboundPacketsQueue.add(new NetworkManager.InboundHandlerTuplePacketListener(packetIn, (GenericFutureListener[]) null));
+            } finally {
+                this.field_181680_j.writeLock().unlock();
+            }
+        }
+    }
+
+    private void dispatchUnregisteredPacket(final Packet inPacket, final GenericFutureListener<? extends Future<? super Void>>[] futureListeners) {
+        final EnumConnectionState enumconnectionstate = EnumConnectionState.getFromPacket(inPacket);
+        final EnumConnectionState enumconnectionstate1 = this.channel.attr(attrKeyConnectionState).get();
+
+        if (enumconnectionstate1 != enumconnectionstate) {
+            logger.debug("Disabled auto read");
+            this.channel.config().setAutoRead(false);
+        }
+
+        if (this.channel.eventLoop().inEventLoop()) {
+            if (enumconnectionstate != enumconnectionstate1) {
+                this.setConnectionState(enumconnectionstate);
+            }
+
+            final ChannelFuture channelfuture = this.channel.writeAndFlush(inPacket);
+
+            if (futureListeners != null) {
+                channelfuture.addListeners(futureListeners);
+            }
+
+            channelfuture.addListener(ChannelFutureListener.FIRE_EXCEPTION_ON_FAILURE);
+        } else {
+            this.channel.eventLoop().execute(new Runnable() {
+                public void run() {
+                    if (enumconnectionstate != enumconnectionstate1) {
+                        NetworkManager.this.setConnectionState(enumconnectionstate);
+                    }
+
+                    final ChannelFuture channelfuture1 = NetworkManager.this.channel.writeAndFlush(inPacket);
+
+                    if (futureListeners != null) {
+                        channelfuture1.addListeners(futureListeners);
+                    }
+
+                    channelfuture1.addListener(ChannelFutureListener.FIRE_EXCEPTION_ON_FAILURE);
+                }
+            });
+        }
+    }
+
+
     public void sendPacket(Packet packetIn)
     {
         if (this.isChannelOpen())

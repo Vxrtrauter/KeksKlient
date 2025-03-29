@@ -22,7 +22,7 @@ public class BooleanSetting extends Setting {
         return state;
     }
 
-    private boolean isEnabled() {
+    public boolean isEnabled() {
         return state;
     }
 
