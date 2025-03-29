@@ -86,7 +86,7 @@ public class HUD extends Module {
             GL11.glPopMatrix();
 
             offset += 12;
-            colorOffset -= 100; // Changed from -= 300 to += 100 for the new direction
+            colorOffset -= 100;
         }
     });
 

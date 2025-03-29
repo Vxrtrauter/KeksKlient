@@ -43,7 +43,9 @@ public class Speed extends Module {
         switch(mode.getCurrentMode()) {
             case "LegitHop":
                 if (MoveUtil.isMoving()) {
-                    if (MoveUtil.canSprint()) mc.thePlayer.setSprinting(true);
+                    if (mc.gameSettings.keyBindForward.isKeyDown() && MoveUtil.canSprint()) {
+                        mc.thePlayer.setSprinting(true);
+                    }
                     if (mc.thePlayer.onGround) {
                         mc.thePlayer.jump();
                     }
