@@ -1,10 +1,11 @@
 package net.kekse.settings.impl;
 
 
+import lombok.Getter;
 import lombok.Setter;
 import net.kekse.settings.Setting;
 
-
+@Getter
 @Setter
 public class BooleanSetting extends Setting {
 
