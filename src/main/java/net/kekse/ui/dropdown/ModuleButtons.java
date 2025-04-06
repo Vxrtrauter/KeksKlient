@@ -2,6 +2,7 @@ package net.kekse.ui.dropdown;
 
 import net.kekse.KeksKlient;
 import net.kekse.module.Module;
+import net.kekse.util.font.GlyphPageFontRenderer;
 import net.kekse.util.render.RenderUtil;
 import net.kekse.util.render.hover.HoverUtil;
 import net.minecraft.client.gui.FontRenderer;
@@ -31,12 +32,17 @@ public class ModuleButtons {
         if(mod.isToggled()) RenderUtil.rect(parent.x + 76, offset + 40, 5, 5, Color.GREEN);
 
         fr.drawString(mod.getName(), parent.x + 6, offset + 38, -1);
+
+        //module descriptions
+        if(HoverUtil.rectHovered(parent.x, offset + 30, parent.width, offset + 5, mouseX, mouseY)) {
+            KeksKlient.INSTANCE.getFh().size20.drawString(mod.getDescription(), parent.x + 100, offset + 38, -1);
+        }
     }
 
     public void mouseClicked(int mouseX, int mouseY, int mouseButton) throws IOException {
-        if(HoverUtil.rectHovered(parent.x, offset + 30, parent.width, offset + 5, mouseX, mouseY) && parent.extended && mouseButton == 0) {
+        if (!parent.extended) return;
+        if(HoverUtil.rectHovered(parent.x, offset + 30, parent.width, offset + 5, mouseX, mouseY) && mouseButton == 0) {
             mod.toggle();
-
         }
     }
 
