@@ -17,13 +17,13 @@ import java.util.concurrent.Executors;
 public class GuiCookieAuth extends GuiScreen {
     private final GuiScreen previousScreen;
     private ExecutorService executor = null;
-    private CompletableFuture<Void> task = null;
+    private final CompletableFuture<Void> task = null;
 
     private GuiButton openButton = null;
     private boolean openButtonEnabled = true;
     private GuiButton cancelButton = null;
     public String status = null;
-    private String cause = null;
+    private final String cause = null;
 
     public GuiCookieAuth(GuiScreen previousScreen) {
         this.previousScreen = previousScreen;
@@ -53,14 +53,6 @@ public class GuiCookieAuth extends GuiScreen {
 
         if (executor == null) {
             executor = Executors.newSingleThreadExecutor();
-        }
-    }
-
-    @Override
-    public void onGuiClosed() {
-        if (task != null && !task.isDone()) {
-            task.cancel(true);
-            executor.shutdownNow();
         }
     }
 
@@ -104,9 +96,6 @@ public class GuiCookieAuth extends GuiScreen {
             actionPerformed(cancelButton);
         }
     }
-
-
-
 
     @Override
     protected void actionPerformed(GuiButton button) {

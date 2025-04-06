@@ -1,5 +1,6 @@
 package net.kekse.ui.dropdown;
 
+import lombok.AllArgsConstructor;
 import net.kekse.KeksKlient;
 import net.kekse.module.Module;
 import net.kekse.util.font.GlyphPageFontRenderer;
@@ -11,10 +12,10 @@ import java.awt.*;
 import java.io.IOException;
 
 public class ModuleButtons {
+
     public Module mod;
     public Frame parent;
     public int offset;
-
 
     public ModuleButtons(Module mod, Frame parent, int offset) {
         this.mod = mod;
@@ -24,7 +25,6 @@ public class ModuleButtons {
 
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
         FontRenderer fr = KeksKlient.INSTANCE.getMc().fontRendererObj;
-
 
         RenderUtil.rect(parent.x, offset + 30, parent.width, parent.height + 3, new Color(28, 28, 28, 255));
         RenderUtil.rect(parent.x, offset + 30, parent.width, 1, new Color(60, 60, 60, 255));
@@ -40,7 +40,7 @@ public class ModuleButtons {
     }
 
     public void mouseClicked(int mouseX, int mouseY, int mouseButton) throws IOException {
-        if (!parent.extended) return;
+        if (!parent.extended) return; //better logic, anything under this will abide by this rule
         if(HoverUtil.rectHovered(parent.x, offset + 30, parent.width, offset + 5, mouseX, mouseY) && mouseButton == 0) {
             mod.toggle();
         }

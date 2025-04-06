@@ -23,7 +23,6 @@ public class GuiCrackedAuth extends GuiScreen {
 
     @Override
     public void initGui() {
-
         usernameField = new GuiTextField(0, this.fontRendererObj, width / 2 - 100, height / 2 - 30, 200, 20);
         usernameField.setMaxStringLength(16); // Minecraft usernames are limited to 16 characters
         usernameField.setFocused(true);
@@ -101,7 +100,6 @@ public class GuiCrackedAuth extends GuiScreen {
             SwingUtilities.invokeLater(() -> usernameField.setText(randomUsername));
         });
     }
-
 
     @Override
     public void updateScreen() {

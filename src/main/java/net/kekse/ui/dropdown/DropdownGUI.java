@@ -22,20 +22,15 @@ public class DropdownGUI extends GuiScreen {
         }
     }
 
-
     @Override
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
-        for(Frame frames : frames) {
-            frames.drawScreen(mouseX, mouseY, partialTicks);
-        }
+        for(Frame frames : frames) { frames.drawScreen(mouseX, mouseY, partialTicks); }
         super.drawScreen(mouseX, mouseY, partialTicks);
     }
 
     @Override
     protected void keyTyped(char typedChar, int keyCode) throws IOException {
-        for(Frame frame : frames) {
-            frame.keyTyped(typedChar, keyCode);
-        }
+        for(Frame frame : frames) { frame.keyTyped(typedChar, keyCode); }
 
         if (keyCode == Keyboard.KEY_ESCAPE || keyCode == Keyboard.KEY_RSHIFT) {
             KeksKlient.INSTANCE.getMm().getModule(ClickGUI.class).toggle();
@@ -47,9 +42,7 @@ public class DropdownGUI extends GuiScreen {
 
     @Override
     protected void mouseClicked(int mouseX, int mouseY, int mouseButton) throws IOException {
-        for(Frame frame : frames) {
-            frame.mouseClicked(mouseX, mouseY, mouseButton);
-        }
+        for(Frame frame : frames) { frame.mouseClicked(mouseX, mouseY, mouseButton); }
     }
 
     @Override

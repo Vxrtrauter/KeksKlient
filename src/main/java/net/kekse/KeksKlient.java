@@ -19,10 +19,13 @@ import org.lwjgl.opengl.Display;
 
 @Getter
 public enum KeksKlient implements Subscriber {
+
     INSTANCE;
 
     public static final Minecraft MC = Minecraft.getMinecraft();
-
+    public Minecraft getMc() {
+        return MC;
+    }
 
     public static final EventBus BUS = EventManager.builder()
             .setName("root/KeksKlient")
@@ -61,21 +64,13 @@ public enum KeksKlient implements Subscriber {
     public final void shutdown() {
         AccountManager.save();
         BUS.unsubscribe(this);
-
-    }
-
-    public Minecraft getMc() {
-        return MC;
     }
 
     @Subscribe
     private final Listener<EventKey> listener = new Listener<>(e -> {
         if (this.mm != null) {
             mm.getModules().values().forEach(m -> {
-                if (m.getKey() == e.getKey()) {
-                    m.toggle();
-                }
-            });
+                if (m.getKey() == e.getKey()) { m.toggle(); }});
         }
     });
 }
