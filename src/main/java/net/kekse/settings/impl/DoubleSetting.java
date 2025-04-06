@@ -4,9 +4,9 @@ import lombok.Getter;
 import lombok.Setter;
 import net.kekse.settings.Setting;
 
+@Setter
+@Getter
 public class DoubleSetting extends Setting {
-    @Setter
-    @Getter
     private double val, maxVal, minVal, increment, defaultVal;
 
     public DoubleSetting(String name, double defaultVal, double minVal, double maxVal, double increment) {

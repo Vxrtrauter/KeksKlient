@@ -8,8 +8,4 @@ public enum Category {
     World,
     Client,
     Misc
-
-
-
-
 }

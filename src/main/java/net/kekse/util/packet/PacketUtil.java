@@ -13,7 +13,4 @@ public class PacketUtil {
     public static void sendNoEvent(final Packet<?> packet) {
         mc.getNetHandler().addToSendQueueUnregistered(packet);
     }
-
-
-
 }

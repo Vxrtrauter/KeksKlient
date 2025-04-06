@@ -1,7 +1,10 @@
 package net.kekse.util.altmanager;
 
+import lombok.Getter;
+
 @SuppressWarnings("unused")
 public class Notification {
+  @Getter
   private final String message;
   private final long duration;
   private final long startTime;
@@ -10,10 +13,6 @@ public class Notification {
     this.message = message;
     this.duration = duration;
     this.startTime = System.currentTimeMillis();
-  }
-
-  public String getMessage() {
-    return message;
   }
 
   public boolean isExpired() {

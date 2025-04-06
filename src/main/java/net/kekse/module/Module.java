@@ -28,38 +28,26 @@ public abstract class Module implements Subscriber {
 
     protected final Minecraft mc = KeksKlient.INSTANCE.getMc();
 
-
     public Module() {
         ModuleInfo info = getClass().getAnnotation(ModuleInfo.class);
         Validate.notNull(info, "CONFUSED ANNOTATION EXCEPTION");
 
-
         this.name = info.name();
         this.description = info.description();
         this.category = info.category();
-
-
     }
 
     protected void addSetting(Setting setting) {
         sList.add(setting);
     }
-
     protected void addSettings(Setting... settings) {
         sList.addAll(Arrays.asList(settings));
     }
 
-
-    public void onEnable() {
-        KeksKlient.BUS.subscribe(this);
-
-    }
-
+    public void onEnable() {KeksKlient.BUS.subscribe(this);}
     public  void onDisable() {
         KeksKlient.BUS.unsubscribe(this);
     }
-
-
     public void onToggle() { KeksKlient.BUS.subscribe(this); }
 
     public void toggle() {
@@ -75,7 +63,6 @@ public abstract class Module implements Subscriber {
     }
 
     public void setToggled(boolean toggled) {
-
         onToggle();
         if (toggled) {
             this.toggled = true;

@@ -32,7 +32,7 @@ public enum KeksKlient implements Subscriber {
             .setSuperListeners()
             .build();
 
-    private String
+    private final String
             name = "KeksKlient",
             version = "b001 ClosedBETA",
             commandPrefix = ".",
@@ -53,6 +53,7 @@ public enum KeksKlient implements Subscriber {
 
         fh = new FontHelper();
         fh.init();
+
         mm = new ModuleManager();
         cm = new CommandManager();
         sm = new SettingManager();

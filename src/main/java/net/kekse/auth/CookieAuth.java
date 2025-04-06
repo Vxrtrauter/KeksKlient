@@ -11,6 +11,7 @@ import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
@@ -37,7 +38,7 @@ public class CookieAuth {
 
         executor.execute(() -> {
             try (BufferedReader reader = new BufferedReader(
-                    new InputStreamReader(new FileInputStream(cookieFile), StandardCharsets.UTF_8))) {
+                    new InputStreamReader(Files.newInputStream(cookieFile.toPath()), StandardCharsets.UTF_8))) {
                 gui.status = "&fReading cookie file...&r";
                 Map<String, String> cookieMap = new HashMap<>();
                 String line;
