@@ -6,6 +6,7 @@ import net.kekse.event.impl.player.SlowDownEvent;
 import net.kekse.event.impl.update.EventUpdate;
 import net.kekse.module.Category;
 import net.kekse.module.Module;
+import net.kekse.event.impl.packet.EventPacket;
 import net.kekse.module.ModuleInfo;
 import net.kekse.settings.impl.BooleanSetting;
 import net.kekse.settings.impl.ModeSetting;
@@ -17,6 +18,7 @@ import net.minecraft.network.play.client.C09PacketHeldItemChange;
 import net.minecraft.network.play.client.C0BPacketEntityAction;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.EnumFacing;
+
 
 @ModuleInfo(
         name = "NoSlow",
@@ -63,6 +65,9 @@ public class NoSlow extends Module {
     private final Listener<SlowDownEvent> onSlowDown = new Listener<>(event -> {
         event.setCancelled(true);
     });
+
+
+
 
     @Subscribe
     private final Listener<EventUpdate> onUpdate = new Listener<>(e -> {
@@ -120,9 +125,9 @@ public class NoSlow extends Module {
 
         if (isUsing) {
             useTicks++;
-            if (shouldUse) {
+            if (shouldUse && !jumpTriggered) {
                 performBypass(held.getItem());
-            } else {
+            } else if (!shouldUse) {
                 resetState();
             }
         }
@@ -138,10 +143,7 @@ public class NoSlow extends Module {
                 PacketUtil.sendNoEvent(new C09PacketHeldItemChange((slot + 1) % 9));
                 PacketUtil.sendNoEvent(new C09PacketHeldItemChange(slot));
 
-                if (mc.thePlayer.isSprinting() && !mc.thePlayer.serverSprintState) {
-                    PacketUtil.send(new C0BPacketEntityAction(mc.thePlayer, C0BPacketEntityAction.Action.START_SPRINTING));
-                    mc.thePlayer.serverSprintState = true;
-                }
+
             }
 
             if (useTicks >= maxUseTime - 2) {
