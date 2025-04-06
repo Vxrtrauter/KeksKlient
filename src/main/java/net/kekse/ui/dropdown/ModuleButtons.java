@@ -34,7 +34,7 @@ public class ModuleButtons {
     }
 
     public void mouseClicked(int mouseX, int mouseY, int mouseButton) throws IOException {
-        if(HoverUtil.rectHovered(parent.x, offset + 30, parent.width, offset + 5, mouseX, mouseY) && mouseButton == 0) {
+        if(HoverUtil.rectHovered(parent.x, offset + 30, parent.width, offset + 5, mouseX, mouseY) && parent.extended && mouseButton == 0) {
             mod.toggle();
 
         }
