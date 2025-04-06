@@ -12,6 +12,7 @@ import net.kekse.event.impl.input.EventKey;
 import net.kekse.ui.dropdown.DropdownGUI;
 import net.kekse.module.ModuleManager;
 import net.kekse.settings.SettingManager;
+import net.kekse.util.font.FontHelper;
 import net.minecraft.client.Minecraft;
 import org.lwjgl.opengl.Display;
 
@@ -39,7 +40,7 @@ public enum KeksKlient implements Subscriber {
     private ModuleManager mm;
     private CommandManager cm;
     private SettingManager sm;
-
+    private FontHelper fh;
     private DropdownGUI gui;
 
     public final void init() {
@@ -47,10 +48,11 @@ public enum KeksKlient implements Subscriber {
         System.out.println("Starting " + name + " " + version);
         Display.setTitle(name + " | "+ version);
 
+        fh = new FontHelper();
+        fh.init();
         mm = new ModuleManager();
         cm = new CommandManager();
         sm = new SettingManager();
-
         gui = new DropdownGUI();
 
         AccountManager.load();
